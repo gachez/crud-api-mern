@@ -12,4 +12,5 @@ This is a Create Read Update Delete(CRUD) API boilerplate using the MERN stack.I
 4. Delete data from the database
 
 # Getting started
-First of all clone this repository  navigate to the repository and run <code>npm install</code> then <code>cd</code> into the client folder and run npm install
+First of all clone this repository  navigate to the repository and run <code>npm install</code>. 
+Run <code>npm start</code> to get started
