@@ -1,0 +1,53 @@
+.parentContainer{
+    display: grid;
+    background: rgba(0,0,0,0.9);
+    height: 100%;
+}
+
+.pageTitle{
+    display: flex;
+    margin: auto;
+    color: aliceblue;
+    font-family: 'Niramit', sans-serif;
+}
+
+.movieCard{
+    color: aliceblue;
+    display: grid;
+    margin: auto;
+    width: 80%;
+    grid-template-areas: 't t t t'
+                         'g g g g'
+                         'd d d d'
+                         'r r r r';
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4,1fr); 
+}
+.movieTitle{
+    grid-area: 't';
+    grid-column: 1/-1;
+     font-family: 'Niramit', sans-serif;
+    text-align: center;
+}
+
+.movieGenre{
+    grid-area: 'g';
+    grid-column: 1/-1;
+     font-family: 'Niramit', sans-serif;
+    text-align: center;
+}
+
+.moviedesc{
+    grid-area: 'd';
+    grid-column: 1/-1;
+     font-family: 'Niramit', sans-serif;
+    text-align: center;
+}
+
+.movieRating{
+    grid-area: 'r';
+    grid-column: 1/-1;
+     font-family: 'Niramit', sans-serif;
+    text-align: center;
+    text-align: center;
+}
